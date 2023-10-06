@@ -1,0 +1,27 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  padding: 13px 30px;
+  background-color: rgb(213, 65, 213);
+  color: white;
+  border: transparent;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.biz {
+  text-align: center;
+}
